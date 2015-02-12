@@ -282,6 +282,13 @@ label[for='toggle-all'] {
 	text-decoration: line-through;
 }
 
+#todo-list li.completed label .done {
+	text-decoration: none;
+	display: inline;
+	float: right;
+	vertical-align: top;
+}
+
 #todo-list li.priority:not(.completed) label {
 	color: #d66;
 }
